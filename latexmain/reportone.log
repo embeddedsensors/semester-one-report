@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  4 DEC 2014 21:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  5 DEC 2014 12:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -812,31 +812,45 @@ l.94 \listoffigures
 
 ] (../modules/introduction.tex
 Chapter 1.
-) (../modules/sometheory.tex [3
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+[3
 
-]
+]) (../modules/sometheory.tex [4]
 Chapter 2.
-) (../modules/freehanging.tex [4
+[5
 
-]
+]) [6]
 Chapter 3.
+(../modules/freehanging.tex
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-<../figures/bands.jpg, id=107, 2457.18pt x 2457.18pt>
+
+<../figures/bands.jpg, id=131, 2457.18pt x 2457.18pt>
 File: ../figures/bands.jpg Graphic file (type jpg)
 
 <use ../figures/bands.jpg>
-Package pdftex.def Info: ../figures/bands.jpg used on input line 15.
+Package pdftex.def Info: ../figures/bands.jpg used on input line 14.
 (pdftex.def)             Requested size: 223.1329pt x 223.12381pt.
 
-<../figures/pmnt_end.jpg, id=108, 2457.18pt x 2457.18pt>
+<../figures/pmnt_end.jpg, id=132, 2457.18pt x 2457.18pt>
 File: ../figures/pmnt_end.jpg Graphic file (type jpg)
 
 <use ../figures/pmnt_end.jpg>
-Package pdftex.def Info: ../figures/pmnt_end.jpg used on input line 21.
+Package pdftex.def Info: ../figures/pmnt_end.jpg used on input line 20.
 (pdftex.def)             Requested size: 223.1329pt x 223.12381pt.
- [5
+ [7
 
 ]
 Package epstopdf Info: Source file: <../figures/axial_rubber_endpoint.eps>
@@ -848,19 +862,19 @@ rted-to.pdf>
 (epstopdf)                    size: 133273 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/axial_rubber_end
 point-eps-converted-to.pdf ../figures/axial_rubber_endpoint.eps>
-(epstopdf)             \includegraphics on input line 37.
+(epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/axial_rubber_endpoint-eps-converted-to.pdf, id=114, 1283.79625pt x 
+<../figures/axial_rubber_endpoint-eps-converted-to.pdf, id=138, 1283.79625pt x 
 704.6325pt>
 File: ../figures/axial_rubber_endpoint-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use ../figures/axial_rubber_endpoint-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/axial_rubber_endpoint-eps-converted-to.pdf 
-used on input line 37.
+used on input line 36.
 (pdftex.def)             Requested size: 469.75502pt x 257.82846pt.
 
-[6 <../figures/bands.jpg> <../figures/pmnt_end.jpg>]
+[8 <../figures/bands.jpg> <../figures/pmnt_end.jpg>]
 Package epstopdf Info: Source file: <../figures/axial_rubber_endpointFFT.eps>
 (epstopdf)                    date: 2014-11-27 11:08:51
 (epstopdf)                    size: 132326 bytes
@@ -870,19 +884,19 @@ nverted-to.pdf>
 (epstopdf)                    size: 82472 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/axial_rubber_end
 pointFFT-eps-converted-to.pdf ../figures/axial_rubber_endpointFFT.eps>
-(epstopdf)             \includegraphics on input line 46.
+(epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/axial_rubber_endpointFFT-eps-converted-to.pdf, id=121, 1283.79625pt
+<../figures/axial_rubber_endpointFFT-eps-converted-to.pdf, id=144, 1283.79625pt
  x 704.6325pt>
 File: ../figures/axial_rubber_endpointFFT-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use ../figures/axial_rubber_endpointFFT-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/axial_rubber_endpointFFT-eps-converted-to.p
-df used on input line 46.
+df used on input line 45.
 (pdftex.def)             Requested size: 469.75502pt x 257.82846pt.
 
-[7 <../figures/axial_rubber_endpoint-eps-converted-to.pdf>]
+[9 <../figures/axial_rubber_endpoint-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../figures/badFFT.eps>
 (epstopdf)                    date: 2014-11-27 12:57:53
 (epstopdf)                    size: 203970 bytes
@@ -891,21 +905,21 @@ Package epstopdf Info: Source file: <../figures/badFFT.eps>
 (epstopdf)                    size: 117265 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/badFFT-eps-conve
 rted-to.pdf ../figures/badFFT.eps>
-(epstopdf)             \includegraphics on input line 57.
+(epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/badFFT-eps-converted-to.pdf, id=133, 1283.79625pt x 704.6325pt>
+<../figures/badFFT-eps-converted-to.pdf, id=157, 1283.79625pt x 704.6325pt>
 File: ../figures/badFFT-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/badFFT-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/badFFT-eps-converted-to.pdf used on input l
-ine 57.
+ine 56.
 (pdftex.def)             Requested size: 469.75502pt x 257.82846pt.
- [8 <../figures/axial_rubber_endpointFFT-eps-converted-to.pdf>] [9 <../figures/
-badFFT-eps-converted-to.pdf>])
-[10]
+ [10 <../figures/axial_rubber_endpointFFT-eps-converted-to.pdf>] [11 <../figure
+s/badFFT-eps-converted-to.pdf>])
+[12]
 No file reportone.bbl.
-[11
+[13
 
 
 ]
@@ -913,40 +927,45 @@ Appendix A.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
- [12
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+ [14
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
 
 (./reportone.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
 Package rerunfilecheck Info: File `reportone.out' has not changed.
-(rerunfilecheck)             Checksum: CF295D2B1D37E4217EB24BDF0448DA58;748.
+(rerunfilecheck)             Checksum: 55DE68682D2725AEE1ADF5142482A155;748.
  ) 
 Here is how much of TeX's memory you used:
- 12774 strings out of 493315
- 185965 string characters out of 6137904
- 326454 words of memory out of 5000000
- 15969 multiletter control sequences out of 15000+600000
- 13759 words of font info for 52 fonts, out of 8000000 for 9000
+ 12790 strings out of 493315
+ 186141 string characters out of 6137904
+ 326776 words of memory out of 5000000
+ 15977 multiletter control sequences out of 15000+600000
+ 14094 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,11n,43p,986b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on reportone.pdf (13 pages, 3831895 bytes).
+ 37i,11n,43p,1088b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on reportone.pdf (15 pages, 3866527 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 43 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

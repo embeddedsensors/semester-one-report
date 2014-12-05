@@ -1,13 +1,14 @@
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Objectives}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Phase one (Fall 2014)}{3}{subsection.1.1.1}
-\contentsline {chapter}{\numberline {2}Frequency Predictions}{4}{chapter.2}
-\contentsline {paragraph}{Modal Analysis}{4}{paragraph*.3}
-\contentsline {paragraph}{Wave Speed}{4}{paragraph*.4}
-\contentsline {chapter}{\numberline {3}Experiments}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Free Hanging Resonance Tests with a PMNT Piezoelectric Sensor}{5}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Experimental Procedure}{5}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Results and Analysis}{6}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Free Hanging Resonance Tests with a PZT Piezoelectric Sensor}{9}{section.3.2}
-\contentsline {chapter}{Appendices}{11}{section*.10}
-\contentsline {chapter}{\numberline {A}MATLAB Calculations}{12}{Appendix.a.A}
+\contentsline {section}{\numberline {1.1}Objectives}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Phase one (Fall 2014)}{4}{subsection.1.1.1}
+\contentsline {chapter}{\numberline {2}Frequency Predictions}{5}{chapter.2}
+\contentsline {paragraph}{Frequency Analysis}{5}{paragraph*.3}
+\contentsline {paragraph}{Wave Speed}{5}{paragraph*.4}
+\contentsline {paragraph}{Modal Frequency}{5}{paragraph*.5}
+\contentsline {chapter}{\numberline {3}Experiments}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Free Hanging Resonance Tests with a PMNT Piezoelectric Sensor}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Experimental Procedure}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Results and Analysis}{8}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Free Hanging Resonance Tests with a PZT Piezoelectric Sensor}{11}{section.3.2}
+\contentsline {chapter}{Appendices}{13}{section*.11}
+\contentsline {chapter}{\numberline {A}MATLAB Calculations}{14}{Appendix.a.A}

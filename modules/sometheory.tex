@@ -1,23 +1,48 @@
 %!TEX root = /Users/dylanmorano/Documents/School/Senior/Senior Design/semester-one-report/latexmain/reportone.tex
 \chapter{Frequency Predictions}
-\paragraph{Modal Analysis}
- Modal Analysis is the analytical evaluation of the modal shapes and natural frequencies a vibrating system assumes. This type of analysis is important in this investigation because it can determine fatigue or failure in a structure. Theoretical frequencies are calculated using modal analysis for predetermined modes. These theoretical results are compared with experimental results to determine accuracy. Utilizing vibrational waves through a structure, any anomalies or inconsistencies within the material's natural frequencies can be seen then as fatigue, fracture, or break. Both transverse and axial waves were used as vibration stimuli in this report. 
-A transverse wave is a moving wave where the particle displacement motion oscillates perpendicular to the direction of propagation.  
-Where as an axial wave is a moving wave where is the particle displacement oscillates parallel to the direction of wave propagation.
-
+\paragraph{Frequency Analysis}
+Modal analysis is the analytical evaluation of the modal shapes and natural frequencies a vibrating system assumes. Theoretical frequencies are calculated using modal analysis for predetermined modes. These theoretical results are compared with experimental results to determine accuracy. Both transverse and axial waves were used as vibration stumuli in this report. A transverse wave is a moving wave where the particle displacement motion oscillates perpendicular to the direction of propagation. Whereas an axial wave is a moving wave where the particle displacement oscillates parallel to the direction of wave propagation.
 \paragraph{Wave Speed} 
-Any sinusoidally oscillating system governed by Equation 1, which is the second derivative of the progressive wave function Equation 2, with wavelength $\lambda$, will travel with speed $\emph{v}$.  
+Any sinusoidally oscillating system governed by Equation~\ref{eq:waved}, which is the second derivative of the progressive wave function Equation~\ref{eq:wave}, with wavelength $\lambda$, will travel with speed $\emph{v}$.  
 
-\begin{equation}
-\frac{d^2y}{dx^2} = \frac{1}{v^2} \frac{d^2y}{dt^2}
+\begin{equation} \label{eq:waved}
+\frac{d^2y}{dx^2} = \frac{1}{c^2} \frac{d^2y}{dt^2}
 \end{equation}
 
-\begin{equation}
-y = A\sin{\frac{2\pi}{\lambda}(x+vt)}
+\begin{equation} \label{eq:wave}
+y = A\sin{\frac{2\pi}{\lambda}(x+ct)}
 \end{equation}
 
-For a solid rod $\emph{v}$ is a function of Young's Modulus $\emph{Y}$ and the density $\rho$ of the material, displayed in Equation 3. 
+For a solid rod, $\emph{c}$ is a function of Young's Modulus $\emph{Y}$ and the density $\rho$ of the material, displayed in Equation~\ref{eq:c}. 
 
-\begin{equation}
-v=\sqrt{\frac{Y}{\rho}}
+\begin{equation} \label{eq:c}
+c=\sqrt{\frac{Y}{\rho}}
 \end{equation}
+
+\paragraph{Modal Frequency}
+The modal frequencies in the axial direction were calculated using the methods described by Kinsler, Frey, Coppens, and Sanders in Fundamentals of Acoustics. The boundary conditions for a rod fixed at both ends were applied to the wave equation. After applying the boundary conditions the frequencies of the natural modes of vibration in the axial direction can be calculated using Equation~\ref{eq:fmodes}.
+
+\begin{equation} \label{eq:waveEQ}
+	y(x,t) = A e^{j(\omega t-kx)} + B e^{j(\omega t-kx)}
+\end{equation}
+
+By application of the boundary equations to the wave equation gives
+
+\begin{equation} \label{eq:fmodes}
+	f_n = \dfrac{n}{2} \dfrac{c}{L}
+\end{equation}
+
+Where \emph{n} corresponds to each fundamental mode, \emph{L} is the length of the rod, and \emph{$f_n$} is the fundamental frequency corresponding to each mode \emph{n}. The modal frequencies of the natural modes of vibration in the transverse direction were calculated using Equation~\ref{eq:transfn}.
+
+\begin{equation} \label{eq:transfn}
+	f_n = 0.441(n+0.5)^2 f_1
+\end{equation}
+
+Where the frequency $f_1$ is governed by the speed of sound in the specific medium. This can be seen below in Equation~\ref{eq:transf1}.
+
+\begin{equation} \label{eq:transf1}
+	f_1 = 1.028 \dfrac{a}{L^2} \sqrt{c}
+\end{equation}
+
+Where \emph{a} is the thickness of the rod. 
+	
