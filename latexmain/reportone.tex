@@ -5,15 +5,15 @@
 %
 %-------------------------------Document Information-------------------------------%
 
-\newcommand{\Report}		{Report Name}			%Report Name
-\newcommand{\Author}		{Author}				%Author
-\newcommand{\Last}			{Last Name}				%Authors Last Name
-\newcommand{\Class}			{Class}					%Class Title
-\newcommand{\Professor}		{Professor}				%Professor(s)
+\newcommand{\Report}		{Acoustic Damage Localization for Suspension Bridge Main Cables}			%Report Name
+\newcommand{\Author}		{Tyler Pickering, Rebecca Cressman, Dylan Morano, Michael Smith, Daniel Baima}				%Author
+\newcommand{\Last}			{Pickering, Cressman, Morano, Smith, Baima}				%Authors Last Name
+\newcommand{\Class}			{}					%Class Title
+\newcommand{\Professor}		{Professors Hu, Vincent}				%Professor(s)
 
 %----------------------------------------Preamble---------------------------------------%
 
-\documentclass[10pt,letterpaper,titlepage]{article}
+\documentclass[10pt,letterpaper,titlepage]{report}
 \usepackage[toc,page]{appendix}	%appendix support
 \usepackage{fixltx2e}	%official latex patch and fixes
 %\usepackage[latin1]{inputenc} 	%accepts different input encodings
@@ -99,6 +99,8 @@
 \newpage
 
 % % Introduction
+\input{../modules/introduction}
+\input{../modules/sometheory}
 \input{../modules/freehanging}
 % % Methods
 % \input{../Methods/methods.tex}
@@ -119,8 +121,8 @@
 %--------------------------------Begin Appendix--------------------------------%
 
 \begin{appendices}
-
-\section{MATLAB Calculations}
+\chapter{MATLAB Calculations}
+% \section{}
 
 %	Matlab code parser block
 %-----------------------------------------------------------------
